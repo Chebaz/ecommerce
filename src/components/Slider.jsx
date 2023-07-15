@@ -91,7 +91,7 @@ function Slider() {
         {sliderItems.map((item) => (
           <Slide bg={item.bg}>
             <ImageContainer>
-              <Img src="src/image/img1.png" />
+              <Img src={item.img} />
             </ImageContainer>
             <InfoContainer>
               <Title>{item.title}</Title>
